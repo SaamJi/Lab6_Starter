@@ -6,36 +6,6 @@ class RecipeCard extends HTMLElement {
   constructor() {
     super(); // Inheret everything from HTMLElement
 
-    // let shadowEl = this.attachShadow({ mode: "open" });
-    // let elementRoot = document.createElement("div");
-
-    // let fNamLabelEl = document.createElement("label");
-    // fNamLabelEl.innerText = "First Name: ";
-
-    // let lNamLabelEl = document.createElement("label");
-    // lNamLabelEl.innerText = "Last Name: ";
-
-    // let fNameEl = document.createElement("input");
-    // let lNameEl = document.createElement("input");
-
-    // elementRoot.append(fNamLabelEl);
-    // elementRoot.append(fNameEl);
-    // elementRoot.append(document.createElement("br"));
-    // elementRoot.append(lNamLabelEl);
-    // elementRoot.append(lNameEl);
-
-    // let spanOutput = document.createElement("span");
-    // elementRoot.append(document.createElement("br"));
-    // elementRoot.append(spanOutput);
-
-    // this.nameElChange = () => {
-    //   spanOutput.innerHTML = `Hello ${fNameEl.value} ${lNameEl.value}`;
-    // };
-
-    // fNameEl.addEventListener("change", this.nameElChange);
-    // lNameEl.addEventListener("change", this.nameElChange);
-
-    // shadowEl.append(elementRoot);
     // EXPOSE - START (All expose numbers start with A)
     // A1. TODO - Attach the shadow DOM to this Web Component (leave the mode open)
     let shadowEl1 = this.attachShadow({ mode: "open" });
